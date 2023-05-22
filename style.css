@@ -1,0 +1,90 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 700px;
+    background: url('https://harypham97.github.io/template-bootstrap/banner.jpg') center center no-repeat;
+    padding: 20px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 2px solid green;
+    color: green;
+    border-radius: 20px;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.about,
+.sign-in {
+    text-transform: uppercase;
+    padding: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 60px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/600px-Google_Chrome_icon_%28February_2022%29.svg.png') center center no-repeat;
+    background-size: contain;
+}
+
+.text {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn-start-now {
+    margin-top: 30px;
+    text-align: center;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.text span {
+    color: red;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.content-center {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 70px;
+    height: auto;
+}
+
+.icon-container span {
+    display: block;
+    margin-top: 10px;
+}
